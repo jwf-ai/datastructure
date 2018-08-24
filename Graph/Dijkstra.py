@@ -81,7 +81,7 @@ if __name__ == "__main__":
         [inf, inf, inf, 20, 0, 60],
         [inf, inf, inf, inf, inf, 0]
     ]
-
+    adjacencyMat = [[0,7,5],[inf,0,-5],[inf,inf,0]]
     dijkstra = Dijkstar(adjacencyMat,0)
 
     res = dijkstra.find_shortest_path()
